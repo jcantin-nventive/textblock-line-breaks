@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.572
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29519.161
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "TextBlockMultiline.Shared", "TextBlockMultiline\TextBlockMultiline.Shared\TextBlockMultiline.Shared.shproj", "{6279C845-92F8-4333-AB99-3D213163593C}"
 EndProject
@@ -11,11 +11,14 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextBlockMultiline.iOS", "T
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextBlockMultiline.UWP", "TextBlockMultiline\TextBlockMultiline.UWP\TextBlockMultiline.UWP.csproj", "{7486C25E-7839-4995-A3B2-8CAF1FEACAA1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextBlockMultiline.Wasm", "TextBlockMultiline\TextBlockMultiline.Wasm\TextBlockMultiline.Wasm.csproj", "{D6FFF07B-BFF7-4A0E-AC92-5EBC1EF8D310}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TextBlockMultiline.Wasm", "TextBlockMultiline\TextBlockMultiline.Wasm\TextBlockMultiline.Wasm.csproj", "{D6FFF07B-BFF7-4A0E-AC92-5EBC1EF8D310}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		TextBlockMultiline\TextBlockMultiline.Shared\TextBlockMultiline.Shared.projitems*{6279c845-92f8-4333-ab99-3d213163593c}*SharedItemsImports = 13
+		TextBlockMultiline\TextBlockMultiline.Shared\TextBlockMultiline.Shared.projitems*{6f0a5afe-bdfa-42ca-ae89-d2f9608737d1}*SharedItemsImports = 4
+		TextBlockMultiline\TextBlockMultiline.Shared\TextBlockMultiline.Shared.projitems*{7486c25e-7839-4995-a3b2-8caf1feacaa1}*SharedItemsImports = 4
+		TextBlockMultiline\TextBlockMultiline.Shared\TextBlockMultiline.Shared.projitems*{bd483310-8937-49ac-afa1-1425a8e35563}*SharedItemsImports = 4
 	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Ad-Hoc|Any CPU = Ad-Hoc|Any CPU
